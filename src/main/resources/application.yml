@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: settlement-kafka-streams
+
+kafka:
+  servers: localhost:9092
+  partition: 4
+  payment-topic: payment
+  payment-rules-global-topic: payout-rules-global-topic
+  payment-application-name: settlement-streams
+
+logging:
+  level:
+    root: INFO
+    org.apache.kafka.streams: INFO
+    org.apache.kafka.clients: INFO
