@@ -1,7 +1,7 @@
-package kafkastreams.study.sample.settlement.domain.aggregation
+package com.example.settlement.kafka.streams.application.domain.aggregation
 
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
 import java.time.LocalDate
 
 data class BaseAggregationKey(

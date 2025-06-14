@@ -1,4 +1,4 @@
-package kafkastreams.study.sample.settlement.common
+package com.example.settlement.kafka.streams.application.common
 
 import java.time.LocalDate
 

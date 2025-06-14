@@ -1,8 +1,8 @@
-package kafkastreams.study.sample.settlement.client
+package com.example.settlement.kafka.streams.application.client
 
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
-import kafkastreams.study.sample.settlement.domain.rule.Rule
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.domain.rule.Rule
 import org.springframework.stereotype.Service
 import java.time.LocalDate
 import java.time.LocalDateTime

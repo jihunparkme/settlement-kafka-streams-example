@@ -1,9 +1,9 @@
-package kafkastreams.study.sample.settlement.config
+package com.example.settlement.kafka.streams.application.config
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.domain.payment.Payment
-import kafkastreams.study.sample.settlement.domain.rule.Rule
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.domain.rule.Rule
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.common.serialization.StringSerializer
 import org.springframework.boot.context.properties.ConfigurationProperties

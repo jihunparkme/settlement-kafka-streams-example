@@ -1,8 +1,8 @@
-package kafkastreams.study.sample.settlement.domain.rule
+package com.example.settlement.kafka.streams.application.domain.rule
 
-import kafkastreams.study.sample.settlement.common.DEFAULT_PAYOUT_DATE
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.common.DEFAULT_PAYOUT_DATE
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
 import java.time.LocalDate
 import java.time.LocalDateTime
 

@@ -1,15 +1,15 @@
-package kafkastreams.study.sample.settlement
+package com.example.settlement.kafka.streams.application
 
-import kafkastreams.study.sample.settlement.client.PayoutRuleClient
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.config.KafkaProperties
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregateValue
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregationKey
-import kafkastreams.study.sample.settlement.domain.payment.Payment
-import kafkastreams.study.sample.settlement.domain.rule.Rule
-import kafkastreams.study.sample.settlement.service.SettlementService
+import com.example.settlement.kafka.streams.application.client.PayoutRuleClient
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.config.KafkaProperties
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregateValue
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregationKey
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.domain.rule.Rule
+import com.example.settlement.kafka.streams.application.service.SettlementService
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.common.serialization.Serdes
 import org.apache.kafka.common.utils.Bytes

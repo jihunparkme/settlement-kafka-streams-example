@@ -1,8 +1,8 @@
-package kafkastreams.study.sample.settlement
+package com.example.settlement.kafka.streams.application
 
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.domain.payment.Payment
-import kafkastreams.study.sample.settlement.domain.settlement.Base
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.domain.settlement.Base
 import org.apache.kafka.streams.kstream.ValueMapper
 
 class BaseMapper() : ValueMapper<StreamMessage<Payment>, Base> {

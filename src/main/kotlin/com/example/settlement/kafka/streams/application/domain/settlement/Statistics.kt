@@ -1,8 +1,8 @@
-package kafkastreams.study.sample.settlement.domain.settlement
+package com.example.settlement.kafka.streams.application.domain.settlement
 
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
-import kafkastreams.study.sample.settlement.common.PaymentType
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.common.PaymentType
 import java.time.LocalDate
 import java.time.LocalDateTime
 

@@ -1,4 +1,4 @@
-package kafkastreams.study.sample.settlement.config
+package com.example.settlement.kafka.streams.application.config
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature

@@ -1,11 +1,11 @@
-package kafkastreams.study.sample.settlement.controller
+package com.example.settlement.kafka.streams.application.controller
 
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregateValue
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregationKey
-import kafkastreams.study.sample.settlement.service.AggregatedDataEntry
-import kafkastreams.study.sample.settlement.service.AggregationQueryService
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregateValue
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregationKey
+import com.example.settlement.kafka.streams.application.service.AggregatedDataEntry
+import com.example.settlement.kafka.streams.application.service.AggregationQueryService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

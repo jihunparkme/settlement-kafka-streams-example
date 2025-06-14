@@ -1,13 +1,13 @@
-package kafkastreams.study.sample.settlement.service
+package com.example.settlement.kafka.streams.application.service
 
 import com.example.settlement.kafka.streams.common.randomEnum
-import kafkastreams.study.sample.settlement.common.PaymentActionType
-import kafkastreams.study.sample.settlement.common.PaymentMethodType
-import kafkastreams.study.sample.settlement.common.PaymentType
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.common.Type
-import kafkastreams.study.sample.settlement.config.KafkaProperties
-import kafkastreams.study.sample.settlement.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.common.PaymentActionType
+import com.example.settlement.kafka.streams.application.common.PaymentMethodType
+import com.example.settlement.kafka.streams.application.common.PaymentType
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.common.Type
+import com.example.settlement.kafka.streams.application.config.KafkaProperties
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.stereotype.Service
 import java.time.LocalDate

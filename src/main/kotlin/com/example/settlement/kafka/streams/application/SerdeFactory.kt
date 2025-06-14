@@ -1,13 +1,13 @@
-package kafkastreams.study.sample.settlement
+package com.example.settlement.kafka.streams.application
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregateValue
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregationKey
-import kafkastreams.study.sample.settlement.domain.payment.Payment
-import kafkastreams.study.sample.settlement.domain.rule.Rule
-import kafkastreams.study.sample.settlement.domain.settlement.Base
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregateValue
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregationKey
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.domain.rule.Rule
+import com.example.settlement.kafka.streams.application.domain.settlement.Base
 import org.springframework.kafka.support.serializer.JsonDeserializer
 import org.springframework.kafka.support.serializer.JsonSerde
 import org.springframework.kafka.support.serializer.JsonSerializer

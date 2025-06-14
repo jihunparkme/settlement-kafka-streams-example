@@ -1,10 +1,10 @@
-package kafkastreams.study.sample.settlement
+package com.example.settlement.kafka.streams.application
 
 import com.example.settlement.kafka.streams.common.logger
-import kafkastreams.study.sample.settlement.client.PayoutDateRequest
-import kafkastreams.study.sample.settlement.client.PayoutRuleClient
-import kafkastreams.study.sample.settlement.domain.rule.Rule
-import kafkastreams.study.sample.settlement.domain.settlement.Base
+import com.example.settlement.kafka.streams.application.client.PayoutDateRequest
+import com.example.settlement.kafka.streams.application.client.PayoutRuleClient
+import com.example.settlement.kafka.streams.application.domain.rule.Rule
+import com.example.settlement.kafka.streams.application.domain.settlement.Base
 import org.apache.kafka.streams.processor.api.FixedKeyProcessor
 import org.apache.kafka.streams.processor.api.FixedKeyProcessorContext
 import org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier

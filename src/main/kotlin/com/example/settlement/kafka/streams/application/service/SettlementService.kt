@@ -1,9 +1,9 @@
-package kafkastreams.study.sample.settlement.service
+package com.example.settlement.kafka.streams.application.service
 
 import com.example.settlement.kafka.streams.common.logger
-import kafkastreams.study.sample.settlement.common.StreamMessage
-import kafkastreams.study.sample.settlement.domain.payment.Payment
-import kafkastreams.study.sample.settlement.domain.settlement.Base
+import com.example.settlement.kafka.streams.application.common.StreamMessage
+import com.example.settlement.kafka.streams.application.domain.payment.Payment
+import com.example.settlement.kafka.streams.application.domain.settlement.Base
 import org.springframework.stereotype.Service
 
 @Service

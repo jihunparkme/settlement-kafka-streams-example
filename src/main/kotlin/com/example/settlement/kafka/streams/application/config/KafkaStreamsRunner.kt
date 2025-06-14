@@ -1,8 +1,8 @@
-package kafkastreams.study.sample.settlement.config
+package com.example.settlement.kafka.streams.application.config
 
 import com.example.settlement.kafka.streams.common.logger
 import jakarta.annotation.PreDestroy
-import kafkastreams.study.sample.settlement.SettlementKafkaStreamsApp
+import com.example.settlement.kafka.streams.application.SettlementKafkaStreamsApp
 import org.apache.kafka.streams.KafkaStreams
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component

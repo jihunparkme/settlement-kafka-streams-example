@@ -1,9 +1,9 @@
-package kafkastreams.study.sample.settlement.service
+package com.example.settlement.kafka.streams.application.service
 
 import com.example.settlement.kafka.streams.common.logger
-import kafkastreams.study.sample.settlement.config.KafkaProperties
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregateValue
-import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregationKey
+import com.example.settlement.kafka.streams.application.config.KafkaProperties
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregateValue
+import com.example.settlement.kafka.streams.application.domain.aggregation.BaseAggregationKey
 import org.apache.kafka.streams.KafkaStreams
 import org.apache.kafka.streams.StoreQueryParameters
 import org.apache.kafka.streams.errors.InvalidStateStoreException
