@@ -1,11 +1,10 @@
 package kafkastreams.study.sample.settlement.service
 
-import kafkastreams.study.common.logger
+import com.example.settlement.kafka.streams.common.logger
 import kafkastreams.study.sample.settlement.common.StreamMessage
 import kafkastreams.study.sample.settlement.domain.payment.Payment
 import kafkastreams.study.sample.settlement.domain.settlement.Base
 import org.springframework.stereotype.Service
-import kotlin.getValue
 
 @Service
 class SettlementService {

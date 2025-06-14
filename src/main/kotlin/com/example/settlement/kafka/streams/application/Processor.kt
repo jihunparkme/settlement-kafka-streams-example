@@ -1,6 +1,6 @@
 package kafkastreams.study.sample.settlement
 
-import kafkastreams.study.common.logger
+import com.example.settlement.kafka.streams.common.logger
 import kafkastreams.study.sample.settlement.client.PayoutDateRequest
 import kafkastreams.study.sample.settlement.client.PayoutRuleClient
 import kafkastreams.study.sample.settlement.domain.rule.Rule

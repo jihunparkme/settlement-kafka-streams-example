@@ -1,6 +1,6 @@
 package kafkastreams.study.sample.settlement.service
 
-import kafkastreams.study.common.randomEnum
+import com.example.settlement.kafka.streams.common.randomEnum
 import kafkastreams.study.sample.settlement.common.PaymentActionType
 import kafkastreams.study.sample.settlement.common.PaymentMethodType
 import kafkastreams.study.sample.settlement.common.PaymentType

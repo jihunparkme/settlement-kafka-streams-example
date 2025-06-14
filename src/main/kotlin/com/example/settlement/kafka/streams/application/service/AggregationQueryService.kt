@@ -1,6 +1,6 @@
 package kafkastreams.study.sample.settlement.service
 
-import kafkastreams.study.common.logger
+import com.example.settlement.kafka.streams.common.logger
 import kafkastreams.study.sample.settlement.config.KafkaProperties
 import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregateValue
 import kafkastreams.study.sample.settlement.domain.aggregation.BaseAggregationKey

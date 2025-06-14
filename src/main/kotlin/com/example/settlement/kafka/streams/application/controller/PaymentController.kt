@@ -1,7 +1,7 @@
 package kafkastreams.study.sample.settlement.controller
 
-import kafkastreams.study.common.BasicResponse
-import kafkastreams.study.common.Result
+import com.example.settlement.kafka.streams.common.BasicResponse
+import com.example.settlement.kafka.streams.common.Result
 import kafkastreams.study.sample.settlement.service.PaymentService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
