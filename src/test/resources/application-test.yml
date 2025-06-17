@@ -1,0 +1,15 @@
+kafka:
+  servers: localhost:9092
+  partition: 4
+  payment-topic: local-payment
+  payment-statistics-topic: local-statistics
+  payment-rules-global-topic: local-payout-rules-global-topic-2
+  payment-application-name: local-settlement-streams-2
+  global-payout-rule-state-store-name: local-global-payout-rules-store
+  statistics-store-name: local-statistics-store
+
+logging:
+  level:
+    root: INFO
+    org.apache.kafka.streams: INFO
+    org.apache.kafka.clients: INFO
