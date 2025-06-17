@@ -32,8 +32,9 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-	testImplementation("org.testcontainers:testcontainers:1.21.1")
-	testImplementation("org.testcontainers:kafka:1.21.1")
+	testImplementation("org.testcontainers:testcontainers:1.20.6")
+	testImplementation("org.testcontainers:kafka:1.20.6")
+	testImplementation("io.kotest:kotest-assertions-core:5.9.1")
 }
 
 kotlin {
